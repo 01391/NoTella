@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "note",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "completata",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "dataCreazione",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
